@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Edit page title -->
+    <title>Assignments - CSE 455</title>
+ <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&amp;family=Roboto+Mono:ital,wght@0,500;1,300&amp;display=swap" rel="stylesheet">
+  
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- This script dynamically loads CSS and JS files from the course base directory -->
+    <!-- Only edit if you want to change the paths to your JS/CSS sources -->
+    <script>
+      // Get the base path for the course web by extracting 'courses' + courseName + quarter
+      var fullPathArray = window.location.pathname.split('/');
+      var basePathArray = fullPathArray.slice(1,4);
+      var basePath = "/" + basePathArray.join('/') + "/";
+      // var basePath = 'http://localhost:8000/';
+
+      // CSS files to load
+      var cssSources = [
+        '/css/bootstrap.min.css',
+        '/css/main.css',
+      ];
+
+      // Javscript files to load
+      var jsSources = [
+        '/js/jquery.min.js',
+        '/js/bootstrap.min.js',
+        '/js/nav-bar.js',
+        '/js/footer.js'
+      ];
+
+      // Include the script that will load the CSS & Javscript files
+      document.write("<script src=\'" + basePath + "js/load-sources.js\'><\/script>");
+    </script>
+
+  </head>
+
+  <body>
+    <header class="site-header">
+    <!-- Javascript will load the navigation bar code here. -->
+    </header>
+
+    <div class="container">
+
+      <!-- Begin page content -->
+
+      <!-- Edit main page header -->
+
+      <!-- Edit main page content -->
+      <h3>Assignments</h3>
+      <p><a href="assignment0.html"><b>Assignment 0</b> (Using Colabs, Python basics)</a>: <b>Recommended Due by Jan 14 (Ungraded)</b></p>
+
+      <p> <a href="assignment1.html"><b>Assignment 1</b> (Filters, Convolutions, Edges, Smart Lane Detection)</a> : <b>Due Jan 24, 11:59 PST</b></p>
+      
+      <p> <a href="assignment2.html"><b>Assignment 2</b> (Keypoints, Panaromas, Energy Functions, Seam Carving)</a> : <b>Due Feb 7, 11:59 PST</b> </p>
+      
+      <p> <a href="assignment3.html"><b>Assignment 3</b> (Clustering, Segmentation, Cameras) </a>: <b>Due Feb 21, 11:59 PST</b> </p>
+      
+      <p> <a href="assignment4.html"><b>Assignment 4</b> (kNN, PCA, LDA, Detection) </a>: <b>Due Mar 7, 11:59 PST</b> </p>
+      
+      <p> <a href="assignment5.html"><b>Assignment 5</b> (Optical Flow) </a>: <b>Due Mar 14, 11:59 PST</b> </p>      
+
+
+      <p> <a href="CSE455_Exam_2025_PRACTICE.pdf"><b>Practice Exam</b></a> </p>      
+
+      <p> <a href="CSE455_Exam_2025_PRACTICE_ANSWERS.pdf"><b>Practice Exam Solutions</b></a></p>      
+
+      <!-- End page content -->
+
+    </div>
+
+    <footer class="site-footer">
+    <!-- Javascript will load the footer code here. -->
+    </footer>
+
+  </body>
+
+</html>
+

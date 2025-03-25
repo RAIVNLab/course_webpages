@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Edit page title -->
+    <title>CSE 455: Computer Vision</title>
+ <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&amp;family=Roboto+Mono:ital,wght@0,500;1,300&amp;display=swap" rel="stylesheet">
+  
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- This script dynamically loads CSS and JS files from the course base directory -->
+    <!-- Only edit if you want to change the paths to your JS/CSS sources -->
+    <script>
+      // Get the base path for the course web by extracting 'courses' + courseName + quarter
+      var fullPathArray = window.location.pathname.split('/');
+      var basePathArray = fullPathArray.slice(1,4);
+      var basePath = "/" + basePathArray.join('/') + "/";
+      // var basePath = 'http://localhost:8000/';
+
+      // CSS files to load
+      var cssSources = [
+        '/css/bootstrap.min.css',
+        '/css/main.css',
+      ];
+
+      // Javscript files to load
+      var jsSources = [
+        '/js/jquery.min.js',
+        '/js/bootstrap.min.js',
+        '/js/nav-bar.js',
+        '/js/footer.js'
+      ];
+
+      // Include the script that will load the CSS & Javscript files
+      document.write("<script src=\'" + basePath + "js/load-sources.js\'><\/script>");
+    </script>
+
+  </head>
+
+  <body>
+    <header class="site-header">
+    <!-- Javascript will load the navigation bar code here. -->
+    </header>
+
+    <div class="container">
+
+      <!-- Begin page content -->
+
+      <!-- Edit main page header -->
+
+      <!-- Edit main page content -->
+
+      <h3>Cource Policies</h3>
+      
+
+      <hr style="margin-top:2em; margin-bottom:2em">
+      <h3>Plagiarism and Collaboration</h3>
+      <p align="justify"><b>Plagiarism and Collaboration</b>: Course assignments are designed to teach material through independent implementation of algorithms learned in class. Towards this effort, we have a strict collaboration policy. Students are encouraged to talk through concepts with each other, but all code must be your own! You should not be looking at anyone else's
+        code when completing your assignments. <b> We will run all assignments through plagiarism software. </b> Additionally, you may use online resources to understand concepts, but not to complete the coding portion of your assignments. This includes Stack Overflow and ChatGPT. <b> We will compare all student solutions to ChatGPT generated solutions. </b> If we detect plagiarism in your assignments,
+      you will get a 0 on the assignment and will be reported to the university. <b> ** It is much better to turn in an incomplete assignment than to turn in code that is not your own! ** </b> </p>
+
+
+
+      <h3>Course Conduct</h3>
+      <p align="justify"><b>Diversity and respectful conduct</b>: This course welcomes all students of all backgrounds. The computer science and computer engineering industries have a significant lack of diversity. This is due to a lack of sufficient past efforts by the field toward even greater diversity, equity, and inclusion. The Allen School seeks to create a more diverse, inclusive, and equitable environment for our community and our field. You should expect and demand to be treated by your classmates and course staff with respect. If any incident occurs that challenges this commitment to a supportive, diverse, inclusive, and equitable environment, please let me know so the issue can be addressed.</p>
+      
+      
+      <h3>Accomodations</h3>
+      <p align="justify"><b>Disability, Religious, and Family Accommodations</b>: If you have any questions about disability or religious accommodations, please refer to university policies regarding <a href="http://depts.washington.edu/uwdrs/current-students/accommodations/">disability accommodations</a> or <a href="https://registrar.washington.edu/staffandfaculty/religious-accommodations-polic/">religious accommodations</a>. Feel free to also contact me for any reason.</p>
+
+      <!-- End page content -->
+
+    </div>
+
+    <footer class="site-footer">
+    <!-- Javascript will load the footer code here. -->
+    </footer>
+
+  </body>
+
+</html>
+

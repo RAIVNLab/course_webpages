@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Edit page title -->
+    <title>CSE 455: Computer Vision</title>
+ <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&amp;family=Roboto+Mono:ital,wght@0,500;1,300&amp;display=swap" rel="stylesheet">
+  
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- This script dynamically loads CSS and JS files from the course base directory -->
+    <!-- Only edit if you want to change the paths to your JS/CSS sources -->
+    <script>
+      // Get the base path for the course web by extracting 'courses' + courseName + quarter
+      var fullPathArray = window.location.pathname.split('/');
+      var basePathArray = fullPathArray.slice(1,4);
+      var basePath = "/" + basePathArray.join('/') + "/";
+      // var basePath = 'http://localhost:8000/';
+
+      // CSS files to load
+      var cssSources = [
+        '/css/bootstrap.min.css',
+        '/css/main.css',
+      ];
+
+      // Javscript files to load
+      var jsSources = [
+        '/js/jquery.min.js',
+        '/js/bootstrap.min.js',
+        '/js/nav-bar.js',
+        '/js/footer.js'
+      ];
+
+      // Include the script that will load the CSS & Javscript files
+      document.write("<script src=\'" + basePath + "js/load-sources.js\'><\/script>");
+    </script>
+
+  </head>
+
+  <body>
+    <header class="site-header">
+    <!-- Javascript will load the navigation bar code here. -->
+    </header>
+
+    <div class="container">
+
+      <!-- Begin page content -->
+
+      <!-- Edit main page header -->
+
+      <!-- Edit main page content -->
+
+      <h3>Grading</h3>
+      <p><b>75%</b>: 5 Assignments. 
+        <ul>
+					<li><b>0%</b> for Assignment 0</li>
+					<li><b>20%</b> for Assignment 1</li>
+					<li><b>15%</b> for Assignment 2</li>
+					<li><b>15%</b> per Assignment 3</li>
+					<li><b>15%</b> per Assignment 4</li>
+					<li><b>10%</b> per Assignment 5</li>
+        </ul>
+      </p>
+      <p><b>24%</b>: 1 Final Exam.
+      <p><b>3%</b>: Course Participation in lectures.
+      <p><b>10%</b>: Extra Credit - in assignments and in final exam.
+      </p>
+
+      <hr style="margin-top:2em; margin-bottom:2em">
+      <h3>Expectations</h3>
+      <p align="justify"><b>Deadlines and late days</b></p>
+          
+          <p>Deadlines are primarily there to help the class run smoothly, such as turning in assignments and project deliverables in time. However, at times things are not in our control. To account for that we provide you with <b>5 late days</b> that can be used at your discretion for any deadline.  A maximum of 2 late days can be used for any 1 assignment. Weekends count as 1 day, so if an assignment is due on 11:59pm on Friday, it can be extended to 11:59pm on Sunday with one late day. After exhausting your late days, each submission will lose 25% credit for every extra day it is late.</p>
+
+      <hr style="margin-top:2em; margin-bottom:2em">
+      <!-- End page content -->
+
+    </div>
+
+    <footer class="site-footer">
+    <!-- Javascript will load the footer code here. -->
+    </footer>
+
+  </body>
+
+</html>
+

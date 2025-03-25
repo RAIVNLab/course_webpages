@@ -1,0 +1,558 @@
+/**
+ *  * Reset some basic elements
+ *   */
+html {
+  scroll-behavior: smooth; }
+
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0; }
+
+/**
+ *  * Basic styling
+ *   */
+body {
+	    line-height: 160%;
+  font: 400 16px/1.5 "Assistant", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #111;
+  background-color: #ffffff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  padding-top: 20px;
+}
+
+/**
+ *  * Set `margin-bottom` to maintain vertical rhythm
+ *   */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+.highlight {
+  margin-bottom: 15px; }
+
+/**
+ *  * Images
+ *   */
+img {
+  max-width: 100%;
+  vertical-align: middle; 
+  max-height: 100%;
+  }
+
+
+
+/**
+ *  * Figures
+ *   */
+figure > img {
+  display: block; }
+
+figcaption {
+  font-size: 14px; }
+
+/**
+ *  * Lists
+ *   */
+ul, ol {
+  margin-left: 30px; }
+
+li > ul,
+li > ol {
+  margin-bottom: 0; }
+
+/**
+ *  * Headings
+ *   */
+h5, h6 {
+  font-weight: 300; }
+
+h1, h2, h3, h4 {
+  font-weight: 600; }
+
+/**
+ *  * Links
+ *   */
+a {
+    color: #4C86F4;
+    font-weight: 400;
+  text-decoration: none; }
+a:visited {
+  color: #4C86F4; }
+a:hover {
+  text-decoration: none;
+    color: orange; }
+
+/**
+ *  * Blockquotes
+ *   */
+blockquote {
+  color: #828282;
+  border-left: 4px solid #e8e8e8;
+  padding-left: 15px;
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-style: italic; }
+blockquote > :last-child {
+  margin-bottom: 0; }
+
+/**
+ *  * Code formatting
+ *   */
+pre, code {
+  font-family: "Inconsolata", monospace;
+  font-size: 100%;
+  background-color: #f7f7f9;
+}
+
+code {
+  padding: 1px 5px; }
+
+pre {
+  padding: 8px 12px;
+  overflow-x: auto; }
+
+pre > code {
+  border: 0;
+  padding-right: 0;
+  padding-left: 0; }
+
+h1, h2, h3, h4 {
+    font-family: "Roboto Mono", sans-serif;
+    color: #000;
+    	font-weight: 400;
+}
+
+/* .profile-img {
+  float: left;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin: 20px 22px 10px 0;
+  box-shadow: 0px 3px 6px #222;
+  border-radius: 50%;
+} */
+
+.styled-table {
+    border-collapse: collapse;
+    table-layout:fixed;
+    margin: 5px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width:100%;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
+    word-break: break-all;
+    overflow-x: hidden;
+}
+
+.styled-table thead tr {
+    /* background-color: #69C39E; */
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th {
+    padding: 10px 5px;
+}
+.styled-table td {
+    padding: 1px 5px;
+}
+
+.styled-table tbody th {
+    border-bottom: 2px solid #dddddd;
+}
+
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.profile-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  box-shadow: 0px 3px 6px #222;
+  border-radius: 50%;
+}
+
+/**
+ *  * Site header
+ *   */
+.site-header {
+  min-height: 56px;
+  position: relative; 
+  
+      margin: auto 0.5em;
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 1em;
+    line-height: 4em;
+    color: #000;
+    	font-weight: 300;
+      text-transform: uppercase;
+  }
+
+/**
+ *  * Site footer
+ *   */
+.site-footer {
+  margin: 20px 20px 50px 20px;
+  padding: 30px 0; }
+
+.cse-wordmark {
+    width:260px;
+    float:left;
+}
+
+.site-footer-right{
+    float:right;
+}
+
+.site-header {
+  border-bottom-style: none; }
+
+.site-footer {
+  padding: 10px 0;
+}
+
+/* Top Navigation Bar */
+
+.navbar {
+ border: 0px solid transparent;
+}
+
+.navbar-inverse {
+    background-color: #ffffff;
+}
+
+.navbar-brand {
+    font-weight: 400;
+     text-transform: none;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #9d9d9d;
+  }
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  background-color: white; 
+  color: #9d9d9d;
+  }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #000000; }
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: orange; }
+
+.navbar-right {
+  background-color: #9d9d9d; 
+  }
+
+.navbar-inverse .navbar-right > li > a,
+.navbar-inverse .navbar-right > li > a,
+.navbar-inverse .navbar-right > li > a:hover,
+.navbar-inverse .navbar-right > li > a:focus
+ {
+	color: white; 
+ }
+ 
+ .navbar-toggle {
+ 	background-color: #9d9d9d; 
+ }
+ 
+ .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: orange;
+}
+ 
+ 
+
+/* Floating Navigation Box */
+
+.nav-box {
+    /*border: 1px solid #ccc;*/
+    background-color: #eee;
+    float: right;
+    width: 18em;
+    padding: 20px;
+    margin: 0px 20px 0px 20px
+}
+
+.nav-box ul {
+    list-style: none;
+    margin: 0px 10px 10px 20px;
+}
+
+.nav-box-header {
+    font-weight: bold;
+    margin: 10px 10px 0px 10px;
+}
+
+/*
+ *  * Use this as needed to adjust the spacing between the menu items across the top.
+ *   * To avoid wrapping, the menus and course title should fit within 768 pixels.
+ *    */
+/*.nav>li>a {
+ *     padding-left: 10px;
+ *         padding-right: 10px;
+ *         }*/
+
+
+/*
+ *  * If the course title is long, uncomment and adjust the max-width to make it behave on a very narrow
+ *   * display (such as a phone display) without wrapping.
+ *    */
+/*@media screen and (max-width: 400px) {
+ *   .navbar-brand {
+ *         width: calc(100% - 70px);
+ *               overflow:hidden;
+ *                     white-space: nowrap;
+ *                       }
+ *                       }*/
+
+.sticky {
+    position: fixed;
+}
+
+.nav-sidebar li.active a, .nav-sidebar li a:hover, .nav-sidebar li a:focus, .nav-sidebar a.nav-link.active {
+    background-color: var(--teal);
+    color: #4b2e83;
+    width: 100%;
+    text-decoration: none;
+}
+
+.side-nav-1 {
+    padding-left: 20px;
+}
+
+.nav-sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+    width: 100%;
+  	margin-left: 0px;
+
+}
+
+.nav-sidebar li a {
+    display: block;
+    width: 100%;
+    font-size: 11pt;
+    color: #000000;
+}
+.nav-link {
+    padding: 0.2em 0.5em;
+}
+
+.nav-sidebar li.active a, .nav-sidebar li a:hover, .nav-sidebar li a:focus, .nav-sidebar a.nav-link.active {
+    background-color: orange;
+    color: white;
+    width: 100%;
+    
+}
+
+.section {
+    border-top: 1px solid #000000;
+    padding-top: 3.5em;
+    padding-bottom: 1.5em;
+    page-break-inside: auto;
+}
+
+.subsection {
+    padding-top: 3.5em;
+    page-break-inside: auto;
+}
+
+.calendar {
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.calendar .header {
+    padding-bottom: 0;
+    font-weight: bold;
+    align-items: flex-end;
+    color: #66686B;
+    border-bottom: solid #66686B;
+    border-bottom-width: 0.5px;
+}
+
+.calendar .day, .calendar .header {
+    padding: 0.5em 10px;
+    margin-bottom: 0.2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    /*border-bottom: #cccccc 2px dashed;*/
+}
+
+
+.oddday {
+	background-color: #fafafa;
+}
+
+.evenday {
+	background-color: #ffffff;
+}
+
+
+.assignmentday {
+	background-color: #fff2cc;
+}
+
+.recitationday {
+	background-color: #ccfcff;
+}
+
+
+/*.calendar .day:hover {
+ *     background-color: #bbbbbb;
+ *     }*/
+
+.calendar .week, .calendar .date, .calendar .topic, .calendar .links, .calendar .assignments, .calendar .milestone, .calendar .lecturer {
+    flex-shrink: 0;
+    margin-left: 2px;
+    margin-right: 5px;
+    text-align: left;
+}
+
+.calendar .theme {
+    font-weight: bold;
+    margin-top: 10px;
+    /*border-top: #4b2e83 2px solid;*/
+    /*border-bottom: #4b2e83 2px solid;*/
+   /*background-color: #fdf4d9;*/
+    font-size: 20px;
+}
+
+.calendar .week {
+    flex-basis: 10ch;
+    flex-grow: 0;
+}
+
+.calendar .date {
+    flex-basis: 10ch;
+    flex-grow: .6;
+}
+
+ .calendar .links {
+    flex-basis: 8ch;
+    flex-grow: .8;
+}
+
+.calendar .topic {
+    flex-basis: 8ch;
+    flex-grow: 1.9;
+    padding-right: 10px;
+}
+
+
+.calendar .assignments,  .calendar .milestone, .calendar .lecturer {
+    flex-basis: 3ch;
+    flex-grow: 1.0;
+}
+
+
+
+
+
+.list-group-item:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+}
+
+.card > ul, .card_project > ul  {
+	margin-left: 0px;
+}
+
+
+.card_project {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display:inline-block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 24rem;
+    height: 45rem;
+    margin-bottom: 30px;
+}
+
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card-img {
+    width: 25rem;
+    height: 20rem;
+    display:table-cell; 
+    vertical-align:middle;
+    text-align: center;
+}
+
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+}
+
+.card_project .btn-left {
+	background-color: #f9fbfe;
+}
+
+.card_project .btn-right {
+	background-color: #e8f1fc;
+}
+
+.card-text {
+	font-size: 14px;
+}
+
+.btn-left:hover, .btn-left:focus, .btn-left:active, .btn-left.active, .btn-left:hover>a, .btn-right:hover>a,
+.btn-right:hover, .btn-right:focus, .btn-right:active, .btn-right.active {
+	color: #ffffff;
+    background-color: #2A7AE2;
+    border-color: #000000;
+}
+
+.btn-left>a:hover, .btn-left>a:focus, .btn-left>a:active, .btn-left>a.active,
+.btn-right>a:hover, .btn-right>a:focus, .btn-right>a:active, .btn-right>a.active {
+    color: #fff;
+    background-color: #2A7AE2;
+    border-color: #000000; /*set the color you want here*/
+   text-decoration: none;
+}
+
+
+
+
