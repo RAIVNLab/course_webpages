@@ -418,7 +418,7 @@ h1, h2, h3, h4 {
  *     background-color: #bbbbbb;
  *     }*/
 
-.calendar .week, .calendar .date, .calendar .topic, .calendar .links, .calendar .assignments, .calendar .milestone, .calendar .lecturer {
+.calendar .week, .calendar .date, .calendar .topic, .calendar .links, .calendar .assignments, .calendar .milestone, .calendar {
     flex-shrink: 0;
     margin-left: 2px;
     margin-right: 5px;
@@ -456,7 +456,7 @@ h1, h2, h3, h4 {
 }
 
 
-.calendar .assignments,  .calendar .milestone, .calendar .lecturer {
+.calendar .assignments,  .calendar .milestone, .calendar {
     flex-basis: 3ch;
     flex-grow: 1.0;
 }
