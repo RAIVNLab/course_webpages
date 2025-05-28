@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Edit page title -->
+    <title>Assignment 5 - CSE 455</title>
+ <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&amp;family=Roboto+Mono:ital,wght@0,500;1,300&amp;display=swap" rel="stylesheet">
+  
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- This script dynamically loads CSS and JS files from the course base directory -->
+    <!-- Only edit if you want to change the paths to your JS/CSS sources -->
+    <script>
+      // Get the base path for the course web by extracting 'courses' + courseName + quarter
+      var fullPathArray = window.location.pathname.split('/');
+      var basePathArray = fullPathArray.slice(1,4);
+      var basePath = "/" + basePathArray.join('/') + "/";
+      // var basePath = 'http://localhost:9000/';
+
+      // CSS files to load
+      var cssSources = [
+        '/css/bootstrap.min.css',
+        '/css/main.css',
+      ];
+
+      // Javscript files to load
+      var jsSources = [
+        '/js/jquery.min.js',
+        '/js/bootstrap.min.js',
+        '/js/nav-bar.js',
+        '/js/footer.js'
+      ];
+
+      // Include the script that will load the CSS & Javscript files
+      document.write("<script src=\'" + basePath + "js/load-sources.js\'><\/script>");
+    </script>
+
+  </head>
+
+  <body>
+    <header class="site-header">
+    <!-- Javascript will load the navigation bar code here. -->
+    </header>
+
+    <div class="container">
+
+      <!-- Begin page content -->
+
+      <!-- Edit main page header -->
+
+      <!-- Edit main page content -->
+      <p><span style="color:red">This assignment is due on <strong>Tue, June 10 2025</strong> at 11:59pm PST.</span></p>
+
+      <p>Starter code containing Colab notebooks can be <a href="assignment5_colab.zip">downloaded here</a>.</p>
+
+      <ul>
+        <li><a href="#setup">Setup</a></li>
+        <li><a href="#goals">Goals</a></li>
+        <li><a href="#q1-motion">Q1: Motion</a></li>
+        <li><a href="#submitting-your-work">Submitting your work</a></li>
+      </ul>
+
+      <h3 id="setup">Setup</h3>
+
+      <p>Please watch the below video on submitting to gradescope and tagging your inline questions, which was not done in assignment 0.</p>
+
+      <!-- <iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/DsGd2e9JNH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe> -->
+
+      <iframe src="https://drive.google.com/file/d/1bFl0BY8LqwQ_SAyEUmRERwCEKrRtENmj/preview" width="700" height="430" allow="autoplay"></iframe>
+
+      <p><br><strong>Note</strong>. Ensure you are periodically saving your notebook (<code class="language-plaintext highlighter-rouge">File -&gt; Save</code>) so that you don’t lose your progress if you step away from the assignment and the Colab VM disconnects.</p>
+
+      <p>Once you have completed all Colab notebooks <strong>except <code class="language-plaintext highlighter-rouge">collect_submission.ipynb</code></strong>, proceed to the <a href="#submitting-your-work">submission instructions</a>.</p>
+     
+      <h3 id="goals">Goals</h3>
+
+      <p>In this assignment you will practice implementing optical flow.</p>
+
+      
+
+      <h3 id="q1-knn">Q1: Motion</h3>
+
+      <p>The notebook <strong>Motion.ipynb</strong> will walk you through implementing optical flow</p>
+     
+
+      <h3 id="submitting-your-work">Submitting your work</h3>
+
+      <p><strong>Important</strong>. Please make sure that the submitted notebooks have been run and the cell outputs are visible.</p>
+
+      <p>Once you have completed all notebooks and filled out the necessary code, you need to follow the below instructions to submit your work:</p>
+      
+      <!-- <p><span style="color:red">Even if you have completed your notebooks locally, please execute the following PDF generation on <strong>Colab</strong>. This will prevent a lot of headaches installing <code class="language-plaintext highlighter-rouge">xelatex</code> locally, specifically on Windows or Mac OS.</span></p> -->
+
+      <p><strong>1.</strong> Open <code class="language-plaintext highlighter-rouge">collect_submission.ipynb</code> in Colab and execute the notebook cells.</p>
+
+      <p>This notebook/script will:</p>
+
+      <ul>
+        <li>Generate a zip file of your code (<code class="language-plaintext highlighter-rouge">.py</code> and <code class="language-plaintext highlighter-rouge">.ipynb</code>) called <code class="language-plaintext highlighter-rouge">a5code_submission.zip</code>.</li>
+        <li>Convert all notebooks into a single PDF file.</li>
+      </ul>
+
+      <p>If your submission for this step was successful, you should see the following display message:</p>
+
+      <p><code class="language-plaintext highlighter-rouge">### Done! Please submit a5_code_submission.zip and a5_inline_submission.pdf to Gradescope. ###</code></p>
+
+      <p><strong>2.</strong> Submit the PDF and the zip file to Gradescope (link to gradescope is in the main webpage).</p>
+
+      <p>Remember to download <code class="language-plaintext highlighter-rouge">a5_code_submission.zip</code> and <code class="language-plaintext highlighter-rouge">a5_inline_submission.pdf</code> locally before submitting to Gradescope.</p>
+
+      <!-- End page content -->
+
+    </div>
+
+    <footer class="site-footer">
+    <!-- Javascript will load the footer code here. -->
+    </footer>
+
+  </body>
+
+</html>
